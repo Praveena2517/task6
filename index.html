@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo2-min.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fas" data-feather="x-circle" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas" data-feather="menu"  onclick="openmenu()"></i>
+            </nav>
+            <div class="header-txt">
+                <h3>Software Developer</h3>
+                <h1>Hi,I'm <span>Praveena</span> <br>Computer Science Engineering Graduate</h1>
+            </div>
+        </div>
+    </div>
+    <!------------About------------->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="image/pp6.jpeg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> I'm Praveena, a final-year student at Kingston Engineering College with a strong passion for web development. I have honed my skills in JavaScript, HTML, CSS, and Java, both through academic projects and practical experience I am dedicated to creating dynamic and user-friendly web applications, and I am constantly exploring new technologies to expand my expertise. I'm eager to contribute to innovative projects and collaborate with like-minded professionals in the tech industry.</p>
+                    <div class="tab">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Development and Responsive Web Designing</li>
+                            <li><span>CSS</span><br>Styling and Responsive Web Designing</li>
+                            <li><span>JavaScript</span><br>Functioning and DOM manipulation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>BE-CSE from kingston engineering college<br>current cgpa:9</li>
+                            <li><span>2019-2021</span><br>Higher Secondary Education from Sunbeam Schools<br>12th percentage:93.6%</li>
+                            <li><span>2007-2019</span><br>Elementary School from Shri Vardhaman Jain School<br>10th std :93.6%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Code Bind Technologies</span><br>Development and Responsive Web Designing Internship</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!------services-->
+<div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="project-list">
+                <div>
+                    <i data-feather="code"></i>
+                    <h2>Web Development</h2>
+                    <p>E-commerce website using HTML,CSS,javascript,python and Django</p>
+                   
+                </div>
+                <div>
+                    <i data-feather="database"></i>
+                    <h2>Data Analytics</h2>
+                    <p>Sales management using python and sql</p>
+                    
+                </div>
+                <div>
+                    <i data-feather="chrome"></i>
+                    <h2>Frontend Development</h2>
+                    <p>perfumy website using html,css and javascript</p>
+                    
+                </div>
+            </div>
+        </div>
+</div>
+<!----------------------Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work11.jpeg" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The App connects you to talented people and thoughtful minds
+                        Download it from play store
+                    </p>
+                    <a href="#"> <i data-feather="external-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work2.jpeg" >
+                <div class="layer">
+                    <h3>Perfumy App</h3>
+                    <p>The App connects you to talented people and thoughtful minds
+                        Download it from play store
+                    </p>
+                    <a href="#"> <i data-feather="external-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work3.jpeg" >
+                <div class="layer">
+                    <h3>Online Shoppping App</h3>
+                    <p>The App connects you to talented people and thoughtful minds
+                        Download it from play store
+                    </p>
+                    <a href="#"> <i data-feather="external-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------------------------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i data-feather="mail"></i><h4>praveenakavi2517@gmail.com</h4></p>
+                <p><i data-feather="phone"></i><h4>+91-9342690500</h4></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/praveena025"> <i data-feather="linkedin"></i></a>
+                    <a href="https://github.com/Praveena2517"> <i data-feather="github"></i></a>
+                    <a href="https://www.instagram.com/__praveena__._"> <i data-feather="instagram"></i></a>
+                    
+                </div>
+                <a href="resume_praveena.pdf" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email " required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Message send successfully!</span>
+            </div>
+        </div>
+    </div>
+</div>
+     
+<script>
+       feather.replace();
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+   
+    }
+</script> 
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>   
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzt9J514wtil6dn0QphU9OIhikq1fRXmRkO0Brz74uxrS5VAngw-un3LKSvX1Rcemj8/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent Succsessfully!"
+            setTimeout(function(){
+                msg.innerHTML=" "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> 
+</body>
+</html>
